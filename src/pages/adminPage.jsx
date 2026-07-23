@@ -3,7 +3,6 @@ import { FiUsers } from "react-icons/fi";
 import { CiViewList } from "react-icons/ci";
 import { MdOutlineRateReview } from "react-icons/md";
 import { MdOutlineAdminPanelSettings } from "react-icons/md";
-import logoImg from "../assets/logo.png";
 
 function AdminPage() {
   return (
