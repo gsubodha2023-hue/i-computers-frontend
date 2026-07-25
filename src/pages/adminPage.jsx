@@ -18,7 +18,7 @@ function AdminPage() {
         </div>
       </div>
 
-      <div className="w-full h-100 bg-gray-100 text-2xl flex flex-col pl-[20px] pt-[20px]">
+      <div className="w-full h-100 bg-gray-100 text-2xl flex flex-col pl-5 pt-5">
         <Link to="/.admin/users" className="flex items-center gap-2.5 w-full h-12.5">
           <FiUsers /> Users
         </Link>
@@ -43,7 +43,7 @@ function AdminPage() {
             <Route path="/" element={<AdminPage />} />
             <Route path="/users" element={<h1>ORDERS</h1>} />
             <Route path="/products" element={<AdminProductPage />} />
-            <Route path="/add-product" element={<AdminAddProductPage/>} />
+            <Route path="/add-product" element={<AdminAddProduct />} />
             <Route path="/reviews" element={<h1>REVIEWS</h1>} />
             <Route path="/settings" element={<h1>SETTINGS</h1>} />
         </Routes>

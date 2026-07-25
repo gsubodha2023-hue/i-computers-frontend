@@ -63,33 +63,33 @@ export default function AdminAddProductPage(){
            <div className="w-full bg-white p-5 flex flex-col flex-wrap justify-between rounded-2xl">
             <div className="my-2.5 w-[50%]">
                 <label>Product ID:</label>
-                <input value={productID} onChange={(e) => setProductID(e.target.value)} placeholder="Product ID" className="w-full h-12.5 border-2 rounded-2xl border-gray-300 px-[10px] focus:outline-none focus:ring-accent"/>
+                <input value={productID} onChange={(e) => setProductID(e.target.value)} placeholder="Product ID" className="w-full h-12.5 border-2 rounded-2xl border-gray-300 px-2.5 focus:outline-none focus:ring-accent"/>
                 <p className="text-sm text-gray-500 w-full text-right">Enter the unique ID for the product.</p>
             </div>
                <div className="my-2.5 w-[50%]">
                 <label>Name:</label>
-                <input type="text" value={Name} onChange={(e) => setName(e.target.value)} placeholder="Product Name" className="w-full h-12.5 border-2 rounded-2xl border-gray-300 px-[10px] focus:outline-none focus:ring-accent"/>
+                <input type="text" value={Name} onChange={(e) => setName(e.target.value)} placeholder="Product Name" className="w-full h-12.5 border-2 rounded-2xl border-gray-300 px-2.5 focus:outline-none focus:ring-accent"/>
             </div>
                 <div className="my-2.5">
                 <label>Alternative Names:</label>
-                <input type="text" value={altNames} onChange={(e) => setaltNames(e.target.value)} placeholder="Alternative Names" className="w-full h-12.5 border-2 rounded-2xl border-gray-300 px-[10px] focus:outline-none focus:ring-accent"/>
+                <input type="text" value={altNames} onChange={(e) => setaltNames(e.target.value)} placeholder="Alternative Names" className="w-full h-12.5 border-2 rounded-2xl border-gray-300 px-2.5 focus:outline-none focus:ring-accent"/>
                 <p className="text-sm text-gray-500 w-full text-right">Enter alternative names for the product, separated by commas.</p>
             </div>
                  <div className="my-2.5">
                 <label>Description:</label>
-                <textarea type="text" value={description} onChange={(e) => setdescription(e.target.value)} placeholder="Product Description" className="w-full h-25 border-2 rounded-2xl border-gray-300 px-[10px] focus:outline-none focus:ring-accent"/>
+                <textarea type="text" value={description} onChange={(e) => setdescription(e.target.value)} placeholder="Product Description" className="w-full h-25 border-2 rounded-2xl border-gray-300 px-2.5 focus:outline-none focus:ring-accent"/>
             </div>
             <div className="my-2.5 w-[50%]">
                 <label>Price:</label>
-                <input type="number" value={Price} onChange={(e) => setPrice(e.target.value)} placeholder="Product Price" className="w-full h-12.5 border-2 rounded-2xl border-gray-300 px-[10px] focus:outline-none focus:ring-accent"/>
+                <input type="number" value={Price} onChange={(e) => setPrice(e.target.value)} placeholder="Product Price" className="w-full h-12.5 border-2 rounded-2xl border-gray-300 px-2.5 focus:outline-none focus:ring-accent"/>
             </div>
             <div className="my-2.5 w-[50%]">
                 <label>Label Price:</label>
-                <input type="number" value={labelledPrice} onChange={(e) => setlabelledPrice(e.target.value)} placeholder="Label Price" className="w-full h-12.5 border-2 rounded-2xl border-gray-300 px-[10px] focus:outline-none focus:ring-accent"/>
+                <input type="number" value={labelledPrice} onChange={(e) => setlabelledPrice(e.target.value)} placeholder="Label Price" className="w-full h-12.5 border-2 rounded-2xl border-gray-300 px-2.5 focus:outline-none focus:ring-accent"/>
             </div>
             <div className="my-2.5">
                 <label>Images:</label>
-                <input type="text" value={images} onChange={(e) => setimages(e.target.value)} placeholder="Image URLs (comma-separated)" className="w-full h-12.5 border-2 rounded-2xl border-gray-300 px-[10px] focus:outline-none focus:ring-accent"/>
+                <input type="text" value={images} onChange={(e) => setimages(e.target.value)} placeholder="Image URLs (comma-separated)" className="w-full h-12.5 border-2 rounded-2xl border-gray-300 px-2.5 focus:outline-none focus:ring-accent"/>
             </div>
             <div className="my-2.5 w-[30%] flex flex-col">
                 <label>Category:</label>
@@ -114,15 +114,15 @@ export default function AdminAddProductPage(){
                 </div>
                 <div className="my-2.5 w-[30%]">
                 <label>Brand:</label>
-                <input type="text" value={brand} onChange={(e) => setbrand(e.target.value)} placeholder="Brand" className="w-full h-12.5 border-2 rounded-2xl border-gray-300 px-[10px] focus:outline-none focus:ring-accent"/>
+                <input type="text" value={brand} onChange={(e) => setbrand(e.target.value)} placeholder="Brand" className="w-full h-12.5 border-2 rounded-2xl border-gray-300 px-2.5 focus:outline-none focus:ring-accent"/>
             </div>
             <div className="my-2.5 w-[30%]">
                 <label>Model:</label>
-                <input type="text" value={model} onChange={(e) => setmodel(e.target.value)} placeholder="Model" className="w-full h-12.5 border-2 rounded-2xl border-gray-300 px-[10px] focus:outline-none focus:ring-accent"/>
+                <input type="text" value={model} onChange={(e) => setmodel(e.target.value)} placeholder="Model" className="w-full h-12.5 border-2 rounded-2xl border-gray-300 px-2.5 focus:outline-none focus:ring-accent"/>
             </div>
             <div className="my-2.5 w-[50%]">
                 <label>Stock:</label>
-                <input type="number" value={Stock} onChange={(e) => setStock(e.target.value)} placeholder="Stock" className="w-full h-12.5 border-2 rounded-2xl border-gray-300 px-[10px] focus:outline-none focus:ring-accent"/>
+                <input type="number" value={Stock} onChange={(e) => setStock(e.target.value)} placeholder="Stock" className="w-full h-12.5 border-2 rounded-2xl border-gray-300 px-2.5 focus:outline-none focus:ring-accent"/>
             </div>
             <div className="my-2.5 w-[30%] flex items-center gap-2.5">
                 <select
